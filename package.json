@@ -1,0 +1,29 @@
+{
+  "name": "base-builder-rewards-project",
+  "version": "1.0.0",
+  "description": "A DeFi application built for the Base Builder Rewards Summer League contest",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network base",
+    "start": "npm run dev",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "keywords": ["base", "defi", "ethereum", "smart-contracts", "builder-rewards"],
+  "author": "wearedood",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.7.1",
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.0.0"
+  }
+}
